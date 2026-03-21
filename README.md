@@ -11,7 +11,7 @@ En el código encontramos los siguientes problemas de sostenibilidad:
 He utilizado HTML5 y CSS, aplicando las siguientes medidas de ecodiseño:
 
 **Imágenes** en Formato WebP y `loading="lazy"` ---> Menos transferencia de datos y ahorro de ancho de banda. 
-**Tipografía y Fuentes del Sistema** (`system-ui`) ---> Se eliminan las peticiones a servidores externos (Google Fonts). |
+**Tipografía y Fuentes del Sistema** (`system-ui`) ---> Se eliminan las peticiones a servidores externos (Google Fonts). 
 **Código**  Eliminación de JavaScript ---> Menor uso de CPU y ahorro de batería en dispositivos móviles. 
 **Eliminacion de frameworks**  CSS sin frameworks ---> Web ultra ligera que funciona en dispositivos antiguos. 
 
