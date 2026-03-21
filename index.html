@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GreenTech - Únete a la revolución verde.">
+  <title>Salvemos el Planeta - GreenTech</title>
+</head>
+<body>
+
+  <main class="contenedor-principal"> <!-- Imagen optimizada para web -->
+    <img 
+      class="imagen-fondo" 
+      src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&format=webp&fit=crop"  
+      alt="Paisaje verde natural" 
+      loading="lazy" 
+    /> 
+    <!-- Carga diferida para mejorar el rendimiento -->
+     
+    <h1>Salvemos el Planeta</h1>
+    <p class="subtitulo">Únete a la revolución verde de GreenTech.</p>
+    
+    <button class="btn-eco">Quiero ayudar</button>
+  </main>
+
+  <footer>
+    GreenTech Solutions &copy; 2024 - Software verdaderamente sostenible.
+  </footer>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif; /* evita fuentes externas */
+      background-color: #f4fdf4;
+      margin: 0;
+      display: flex;  /* Diseño flexible */
+      flex-direction: column;
+      min-height: 100vh;  /* Ocupa el 100% de la pantalla */
+    }
+
+    .contenedor-principal {
+      position: relative;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+
+    .imagen-fondo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Recorta la imagen sin deformarla */
+      z-index: -1;
+    }
+
+    h1 {
+      font-size: 56px;
+      margin-bottom: 8px;
+    }
+
+    .subtitulo {
+      font-size: 24px;
+      margin-bottom: 32px;
+    }
+
+    .btn-eco {
+      background-color: #28a745;
+      color: white;
+      border: 2px solid #1e7e34;
+      padding: 15px 40px;  /* Tamaño del botón */
+      font-size: 24px;
+      border-radius: 50px;
+      cursor: pointer; /* Cambia el cursor al pasar por encima */
+    }
+
+    .btn-eco:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px;
+      background-color: #212529;
+      color: white;
+    }
+  </style>
+
+</body>
+</html>
